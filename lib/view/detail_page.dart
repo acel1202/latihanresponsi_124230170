@@ -150,7 +150,6 @@ class _DetailPageState extends State<DetailPage> {
 
           const SizedBox(height: 30),
 
-          // BUTTON DI KIRI BAWAH
           Align(
             alignment: Alignment.centerLeft,
             child: ElevatedButton.icon(

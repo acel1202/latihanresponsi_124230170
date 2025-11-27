@@ -15,7 +15,7 @@ class ApiService {
         if (jsonData.containsKey('results')) {
           return jsonData['results'] as List<dynamic>;
         }
-        // fallback: if endpoint returns list directly
+
         return jsonDecode(resp.body) as List<dynamic>;
       } else {
         throw Exception('Failed to load $menu (status ${resp.statusCode})');
